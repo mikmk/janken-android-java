@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/MainSoundIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:onClick="btnBGM_onClick" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titleimage"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/ivComp"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/topimage"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="btn_click"
+        android:src="@drawable/startimage"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp" />
+
+<!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btn_click"
+        android:text="スタート" />-->
+
+
+</LinearLayout>

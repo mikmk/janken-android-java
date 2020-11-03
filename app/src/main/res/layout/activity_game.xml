@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<ImageButton
+    android:id="@+id/GameSoundIcon"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_gravity="right"
+    android:layout_margin="20dp"
+    android:layout_marginStart="20dp"
+    android:scaleType="centerCrop"
+    android:background="@null"
+    android:onClick="btnBGM_onClick" />
+
+<ImageView
+    android:id="@+id/ivComp"
+    android:layout_width="500dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center_horizontal"
+    android:scaleType="fitCenter"
+    android:src="@drawable/com_janken"/>
+
+<TextView
+    android:id="@+id/tvWinLose"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="30dp"
+    android:text=""
+    android:textColor="#90000000"
+    android:textSize="50sp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btGoo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="btClick"
+        android:src="@drawable/gu"
+        android:background="@null"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btCho"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="btClick"
+        android:src="@drawable/choki"
+        android:background="@null"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btPah"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="btClick"
+        android:src="@drawable/pa"
+        android:background="@null"
+        android:scaleType="fitCenter" />
+</LinearLayout>
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:onClick="retry"
+        android:text="もう一回"
+        android:visibility="invisible"/>
+
+
+
+
+</LinearLayout>
